@@ -3,56 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A sleek, modern website for your business">
-    <title>Modern Web Page</title>
+    <meta name="description" content="Portfolio of Jayditya Patel, Computer Department Student">
+    <title>Jayditya Patel's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header Section -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#">MyBrand</a>
-            </div>
+    <header class="header">
+        <div class="logo">
+            <h1>Jayditya Patel</h1>
+            <p>Computer Department | TTE, DYPIMR</p>
+        </div>
+        <nav>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <section class="hero">
-            <h1>Welcome to My Brand</h1>
-            <p>Your one-stop solution for modern web design and development</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
-        </section>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <h2>About Us</h2>
-        <p>We specialize in crafting beautiful, responsive websites tailored to your business needs.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>A glimpse into my world of coding, development, and problem-solving.</p>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <h2>Our Services</h2>
-        <div class="service-card">
-            <h3>Web Development</h3>
-            <p>Custom websites built with the latest technologies to ensure a smooth user experience.</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Jayditya Patel, a Computer Department student at DYPIMR. I am passionate about software development, AI, and tech innovations. With a focus on programming, I've honed skills in various languages and frameworks, aiming to build impactful solutions for the future.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Programming Languages</h3>
+                <p>Python, C++, JavaScript, HTML, CSS</p>
+            </div>
+            <div class="skill">
+                <h3>Frameworks</h3>
+                <p>React, Node.js, Flask</p>
+            </div>
+            <div class="skill">
+                <h3>Tools</h3>
+                <p>Git, Docker, Figma, VS Code</p>
+            </div>
         </div>
-        <div class="service-card">
-            <h3>UI/UX Design</h3>
-            <p>Stunning interfaces and seamless user experiences to captivate your audience.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Notable Projects</h2>
+        <div class="project-card">
+            <h3>AI-Powered Web App</h3>
+            <p>A web application that uses machine learning to predict data trends and assist users in decision-making.</p>
         </div>
-        <div class="service-card">
-            <h3>SEO Optimization</h3>
-            <p>Optimizing your site to improve search engine rankings and drive traffic.</p>
+        <div class="project-card">
+            <h3>Real-Time Chat Application</h3>
+            <p>A real-time chat application built using Node.js and WebSocket for seamless communication.</p>
+        </div>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills, projects, and achievements, built with HTML, CSS, and JavaScript.</p>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
         <form action="#" method="post">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
@@ -62,13 +84,14 @@
     </section>
 
     <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 MyBrand. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2025 Jayditya Patel. All Rights Reserved.</p>
         <div class="social-links">
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
             <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
         </div>
     </footer>
+
 </body>
 </html>
